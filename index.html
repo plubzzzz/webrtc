@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>PROJET</title>
+        <style>
+            body {
+                padding-top: 5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+            <a class="navbar-brand" href="#">Demo WebRTC</a>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>reception</h2>
+                    <video id="receiver-video" width="100%" height="400px"></video>
+                    <p>
+                        <button id="start">Démarrer la conversation</button>
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <h2>envoi</h2>
+                    <video id="emitter-video" width="100%" height="400px"></video>
+                </div>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+
+
+    </body>
+
+</html>
